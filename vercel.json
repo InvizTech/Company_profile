@@ -1,6 +1,7 @@
 {
     "rewrites": [
-      { "source": "/", "destination": "/home-1.html" }
+      { "source": "/", "destination": "/home-1.html" },
+      { "source": "/careers(/.*)?", "destination": "https://careers-page-eight.vercel.app/" }
     ]
   }
   
