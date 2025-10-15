@@ -17,6 +17,11 @@
     <link rel="stylesheet" href="css/plugins/fancybox.min.css">
     <!-- ashley scss -->
     <link rel="stylesheet" href="css/style.css">
+    <style>
+    .mil-cursor {
+        display: none !important;
+    }
+    </style>
     <!-- page name -->
     <title>Virtual techX</title>
 
@@ -28,13 +33,13 @@
     <div class="mil-wrapper" id="top">
 
         <!-- cursor -->
-        <div class="mil-ball">
+        <!-- <div class="mil-ball">
             <span class="mil-icon-1">
                 <svg viewBox="0 0 128 128">
                     <path d="M106.1,41.9c-1.2-1.2-3.1-1.2-4.2,0c-1.2,1.2-1.2,3.1,0,4.2L116.8,61H11.2l14.9-14.9c1.2-1.2,1.2-3.1,0-4.2	c-1.2-1.2-3.1-1.2-4.2,0l-20,20c-1.2,1.2-1.2,3.1,0,4.2l20,20c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9c1.2-1.2,1.2-3.1,0-4.2	L11.2,67h105.5l-14.9,14.9c-1.2,1.2-1.2,3.1,0,4.2c0.6,0.6,1.4,0.9,2.1,0.9s1.5-0.3,2.1-0.9l20-20c1.2-1.2,1.2-3.1,0-4.2L106.1,41.9	z" />
                 </svg>
             </span>
-        </div>
+        </div> -->
         <!-- cursor end -->
 
         <!-- preloader -->
@@ -218,140 +223,299 @@
             <div id="swupMain" class="mil-main-transition">
 
                 <!-- banner -->
-                <div class="mil-dark-bg">
-                    <div class="mil-inner-banner">
-                        <div class="mi-invert-fix">
-                            <div class="mil-banner-content mil-up">
-                                <div class="mil-animation-frame">
-                                    <div class="mil-animation mil-position-4 mil-scale" data-value-1="6" data-value-2="1.4"></div>
-                                </div>
-                                <div class="container">
-                                    <ul class="mil-breadcrumbs mil-light mil-mb-60">
-                                        <li><a href="home-1.html">Homepage</a></li>
-                                        <li><a href="services.html">Services</a></li>
-                                    </ul>
-                                    <h1 class="mil-muted mil-mb-60">Innovating where<br><span class="mil-thin">creativity meets technology.</span></h1>
-                                    <a href="#services" class="mil-link mil-accent mil-arrow-place mil-down-arrow">
-                                    <span>Empowering tomorrow’s brands.</span>
-                                    </a>
-
-                                    </a>
-                                </div>
-                            </div>
+                <div class="mil-inner-banner">
+                    <div class="mil-animation-frame">
+                        <div class="mil-animation mil-position-4 mil-dark mil-scale" data-value-1="6" data-value-2="1.4"></div>
+                    </div>
+                    <div class="mil-banner-content mil-up">
+                        <div class="container">
+                            <ul class="mil-breadcrumbs mil-mb-60">
+                                <li><a href="home-1.html">Homepage</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="service.html">Service</a></li>
+                            </ul>
+                            <h1 class="mil-mb-60">Ai & <span class="mil-thin">Software</span><br> Design <span class="mil-thin">Development</span></h1>
+                            <a href="#service" class="mil-link mil-dark mil-arrow-place mil-down-arrow">
+                                <span>About service</span>
+                            </a>
                         </div>
                     </div>
-                    <!-- banner end -->
+                </div>
+                <!-- banner end -->
 
-                    <!-- services -->
-                    <section id="services">
-                        <div class="mi-invert-fix">
-                            <div class="container mil-p-120-60">
-                                <div class="row">
-                                    <div class="col-lg-5">
+                <!-- service -->
+                <section id="service">
+                    <div class="container mil-p-120-90">
+                        <div class="row justify-content-between">
+                            <div class="col-lg-4 mil-relative mil-mb-90">
 
-                                        <div class="mil-lines-place mil-light"></div>
+                                <h4 class="mil-up mil-mb-30">Your <span class="mil-thin">Approach</span> <br>and <span class="mil-thin">Work Specifics</span></h4>
+                                <p class="mil-up mil-mb-30">At our agency, we have a unique approach to web design and development. We believe in creating websites that not only look great but also perform well in terms of user experience, functionality, and search engine optimization.</p>
+                                <!-- <div class="mil-up">
+                                    <a href="portfolio-3.html" class="mil-link mil-dark mil-arrow-place">
+                                        <span>View works</span>
+                                    </a>
+                                </div> -->
+
+                            </div>
+                            <div class="col-lg-6">
+
+                                <div class="mil-accordion-group mil-up">
+                                    <div class="mil-accordion-menu">
+
+                                        <p class="mil-accordion-head">Ai & Software Design Development</p>
+
+                                        <div class="mil-symbol mil-h3">
+                                            <div class="mil-plus">+</div>
+                                            <div class="mil-minus">-</div>
+                                        </div>
 
                                     </div>
-                                    <div class="col-lg-7">
-                                        <div class="row">
-                                            <div class="col-md-6 col-lg-6">
-                                                <a href="service-1.html" class="mil-service-card-lg mil-more mil-accent-cursor mil-offset">
-                                                    <h4 class="mil-muted mil-up mil-mb-30">AI & <br>Software Design Development</h4>
-                                                    <p class="mil-descr mil-light-soft mil-up mil-mb-30">Smart, scalable solutions that automate and optimize your business — powered by AI-driven workflows and predictive systems.</p>
-                                                    <ul class="mil-service-list mil-light mil-mb-30">
-                                                        <li class="mil-up">AI-Driven Web & App Development</li>
-                                                        <li class="mil-up">Custom Software Design</li>
-                                                        <li class="mil-up">Automation & Workflow Optimization</li>
-                                                        <li class="mil-up">Predictive Data Systems</li>
-                                                        <li class="mil-up">Prototype & MVP Development</li>
-                                                    </ul>
-                                                    <div class="mil-link mil-accent mil-arrow-place mil-up">
-                                                        <span>Read more</span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="col-md-6 col-lg-6">
-                                                <a href="service-2.html" class="mil-service-card-lg mil-more mil-accent-cursor">
-                                                    <h4 class="mil-muted mil-up mil-mb-30">Branding & <br>Identity Design</h4>
-                                                    <p class="mil-descr mil-light-soft mil-up mil-mb-30">We craft brands that last — combining strategy, storytelling, and design to create meaningful visual identities.</p>
-                                                    <ul class="mil-service-list mil-light mil-mb-30">
-                                                        <li class="mil-up">Brand Strategy & Positioning</li>
-                                                        <li class="mil-up">Visual Identity Design</li>
-                                                        <li class="mil-up">Logo & Typography Systems</li>
-                                                        <li class="mil-up">Brand Guidelines & Playbooks</li>
-                                                        <li class="mil-up">Digital Brand Experiences</li>
-                                                    </ul>
-                                                    <div class="mil-link mil-accent mil-arrow-place mil-up">
-                                                        <span>Read more</span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="col-md-6 col-lg-6">
-                                                <a href="service-3.html" class="mil-service-card-lg mil-more mil-accent-cursor mil-offset">
-                                                    <h4 class="mil-muted mil-up mil-mb-30">Website & App <br>Design + Development</h4>
-                                                    <p class="mil-descr mil-light-soft mil-up mil-mb-30">We build responsive, high-performing digital experiences — websites and apps that engage users across every device.</p>
-                                                    <ul class="mil-service-list mil-light mil-mb-30">
-                                                        <li class="mil-up">Responsive Website Design</li>
-                                                        <li class="mil-up">E-Commerce Development</li>
-                                                        <li class="mil-up">Web App & SaaS Platforms</li>
-                                                        <li class="mil-up">UI/UX Optimization</li>
-                                                        <li class="mil-up">Maintenance & Performance Tuning</li>
-                                                    </ul>
-                                                    <div class="mil-link mil-accent mil-arrow-place mil-up">
-                                                        <span>Read more</span>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                            <div class="col-md-6 col-lg-6">
-                                                <a href="service-4.html" class="mil-service-card-lg mil-more mil-accent-cursor">
-                                                    <h4 class="mil-muted mil-up mil-mb-30">Creative Strategy &<br> Advertising Campaigns</h4>
-                                                    <p class="mil-descr mil-light-soft mil-up mil-mb-30">Where creativity meets strategy — crafting campaigns that tell stories, inspire emotion, and drive real results.</p>
-                                                    <ul class="mil-service-list mil-light mil-mb-30">
-                                                        <li class="mil-up">Campaign Ideation & Planning</li>
-                                                        <li class="mil-up">Content & Visual Design</li>
-                                                        <li class="mil-up">Digital Marketing Campaigns</li>
-                                                        <li class="mil-up">Performance Analytics & Optimization</li>
-                                                        <li class="mil-up">Creative Copywriting & Messaging</li>
-                                                    </ul>
-                                                    <div class="mil-link mil-accent mil-arrow-place mil-up">
-                                                        <span>Read more</span>
-                                                    </div>
-                                                </a>
-                                            </div>
+                                    <div class="mil-accordion-content">
+                                        <p class="mil-mb-30">We design and develop intelligent web and mobile applications that go beyond functionality — adapting to user behavior through AI and automation. From personalized user flows to data-driven recommendations, our solutions combine innovation, speed, and scalability to help your brand stay ahead in the digital era.</p>
+
+                                        <p class="mil-mb-30">Our team builds purpose-driven software tailored to your specific business goals. We focus on creating seamless, intuitive systems that enhance productivity, integrate smoothly with existing tools, and evolve with your company’s growth — ensuring long-term reliability and impact.</p>
+
+                                        <p class="mil-mb-30">We help businesses work smarter, not harder. Through intelligent automation, we simplify complex processes, reduce manual effort, and improve overall efficiency. Whether it’s automating data handling, team collaboration, or customer engagement, we craft solutions that save time and boost performance.</p>
+
+                                        <p class="mil-mb-30">Leverage the power of data with our predictive analytics and AI-based modeling systems. We turn raw information into actionable insights — enabling you to anticipate trends, optimize strategies, and make informed business decisions that drive measurable growth.</p>
+                                        
+                                        <p class="mil-mb-30">We turn your ideas into reality — fast. Our team creates high-fidelity prototypes and minimum viable products that help validate concepts, attract investors, and gather real user feedback before full-scale development. It’s innovation made agile, efficient, and market-ready.</p>
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-up">
+                                    <div class="mil-accordion-menu">
+
+                                        <p class="mil-accordion-head">Branding & Identity Design</p>
+
+                                        <div class="mil-symbol mil-h3">
+                                            <div class="mil-plus">+</div>
+                                            <div class="mil-minus">-</div>
                                         </div>
-                                    </div>  
+
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                       <p class="mil-mb-30">We define what makes your brand unique and build a strategic foundation that connects with your audience. From market research to brand voice and messaging, we help position your brand with purpose, clarity, and long-term vision.</p>
+                                      <p class="mil-mb-30">We craft cohesive visual systems that reflect your brand’s essence and values. From color palettes to iconography and layouts, every element is designed to communicate consistency, emotion, and recognition across all touchpoints.</p>
+                                       <p class="mil-mb-30">Your logo and type choices are the core of your identity. We design timeless, adaptable logos and custom typography systems that enhance brand recall and ensure visual harmony across digital and print media.</p>
+                                      <p class="mil-mb-30">We create detailed brand manuals that define how your identity lives and breathes. These guidelines ensure consistency in visuals, tone, and behavior — empowering your team to communicate your brand with precision and confidence.</p>
+                                       <p class="mil-mb-30">We extend your brand into the digital world with immersive, user-focused design. From website aesthetics to social media presence, we craft experiences that strengthen engagement, emotion, and loyalty in every interaction.</p> 
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-up">
+                                    <div class="mil-accordion-menu">
+
+                                        <p class="mil-accordion-head">Website & App Design + Development</p>
+
+                                        <div class="mil-symbol mil-h3">
+                                            <div class="mil-plus">+</div>
+                                            <div class="mil-minus">-</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                       <p class="mil-mb-30">We design fluid, adaptive websites that perform beautifully across all devices and screen sizes. Each layout is optimized for speed, usability, and engagement — blending clean aesthetics with intuitive navigation to create a seamless browsing experience that reflects your brand’s essence.</p>
+                                        <p class="mil-mb-30">Our e-commerce solutions are built to convert. We create high-performing online stores with smooth checkout flows, advanced product filtering, and personalized shopping experiences. From Shopify to custom platforms, we ensure your brand connects effortlessly with customers and drives measurable sales growth.</p>
+                                        <p class="mil-mb-30">We develop intelligent, user-focused web applications and SaaS products that simplify workflows and scale with your business. By integrating modern frameworks, API systems, and responsive design, we deliver platforms that are fast, secure, and built for real-world impact.</p>
+                                       <p class="mil-mb-30">Great design goes beyond visuals — it’s about how users feel. We conduct in-depth research, usability testing, and performance analysis to refine interfaces and enhance engagement. The result? Sleek, purposeful designs that guide users naturally and elevate your brand experience.</p>
+                                       <p class="mil-mb-30">Our partnership doesn’t end at launch. We offer continuous maintenance, analytics monitoring, and optimization to keep your website or app performing at its peak. From security updates to UX refinements, we ensure your digital presence stays reliable, fast, and future-ready.</p>
+                                    </div>
+                                </div>
+
+                                <div class="mil-accordion-group mil-up">
+                                    <div class="mil-accordion-menu">
+
+                                        <p class="mil-accordion-head">Creative Strategy & Advertising Campaigns</p>
+
+                                        <div class="mil-symbol mil-h3">
+                                            <div class="mil-plus">+</div>
+                                            <div class="mil-minus">-</div>
+                                        </div>
+
+                                    </div>
+                                    <div class="mil-accordion-content">
+                                        <p class="mil-mb-30">Developing strategic, insight-driven campaign concepts that blend creativity with audience understanding — ensuring every idea tells a story, sparks emotion, and drives results. We conduct in-depth market research, competitor analysis, and audience profiling to identify opportunities, uncover trends, and craft campaigns that resonate. Our approach transforms concepts into actionable strategies that align with your brand vision and business objectives.</p>
+                                        <p class="mil-mb-30">Designing impactful ad creatives, motion graphics, and branded visuals that maintain consistency across platforms — delivering memorable experiences that connect and convert. From concept to execution, we focus on aesthetics, storytelling, and user experience. Our visuals not only capture attention but also reinforce brand identity, enhance engagement, and create lasting impressions across social, web, and offline channels.</p>
+                                        <p class="mil-mb-30">Executing data-backed campaigns across social, search, and digital media channels — optimized for engagement, visibility, and measurable business growth. We integrate multi-channel strategies, leveraging paid ads, organic growth techniques, influencer partnerships, and email marketing to amplify reach. Each campaign is designed to meet KPIs, nurture leads, and drive meaningful conversions for your business.</p>
+                                        <p class="mil-mb-30">Tracking performance metrics in real time to uncover insights, refine strategies, and maximize ROI through continuous testing and optimization. Our analytics-driven approach identifies what works and what doesn’t, enabling rapid adjustments to messaging, creative, and targeting. We provide detailed reporting, predictive insights, and actionable recommendations to ensure campaigns consistently exceed expectations.</p>
+                                        <p class="mil-mb-30">Crafting compelling narratives and persuasive messaging that capture your brand’s essence — inspiring trust, emotion, and meaningful audience action. From brand storytelling to ad copy, website content, email campaigns, and social media messaging, we ensure every word reflects your values and motivates engagement. Our copy bridges creativity and strategy, turning ideas into messages that resonate deeply with your audience.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </section>
-                </div>
-                <!-- services end -->
-
-                <!-- call to action -->
-                <section class="mil-soft-bg">
-                <div class="container mil-p-120-120">
-                    <div class="row">
-                    <div class="col-lg-10">
-                        <span class="mil-suptitle mil-suptitle-right mil-suptitle-dark mil-up">
-                        From concept to creation, we design with purpose — transforming ideas into powerful digital experiences.
-                        </span>
                     </div>
-                    </div>
-                    <div class="mil-center">
-                    <h2 class="mil-up mil-mb-60">
-                        Let’s shape the <span class="mil-thin">future</span> together.<br>
-                        Your vision, <span class="mil-thin">our innovation.</span>
-                    </h2>
-                    <div class="mil-up">
-                        <a href="contact.html" class="mil-button mil-arrow-place">
-                        <span>Start Your Digital Evolution</span>
-                        </a>
-                    </div>
-                    </div>
-                </div>
                 </section>
+                <!-- service end -->
 
-                <!-- call to action end -->
+                <!-- prices -->
+                <!-- <section class="mil-dark-bg">
+                    <div class="mi-invert-fix">
+                        <div class="container mil-p-120-120">
+                            <div class="mil-center">
+                                <h2 class="mil-muted mil-up mil-mb-30">Reasonable <span class="mil-thin">prices</span> <br>for innovative <span class="mil-thin">solutions</span></h2>
+                                <p class="mil-light-soft mil-up mil-mb-120">At our agency, we have a unique approach to web design and development. <br>We believe in creating in terms of user experience, functionality.</p>
+                            </div>
+
+                            <a href="contact.html" class="mil-price-card mil-choose mil-accent-cursor mil-up">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="mil-price-number mil-mb-30"><span class="mil-muted mil-thin">$</span><span class="mil-accent">19</span></div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h5 class="mil-muted mil-mb-30">Tailored Designs for<br> Every Budget</h5>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <p class="mil-light-soft mil-mb-30">Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="mil-adaptive-right mil-mb-30">
+                                            <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="contact.html" class="mil-price-card mil-choose mil-accent-cursor mil-up">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="mil-price-number mil-mb-30"><span class="mil-muted mil-thin">$</span><span class="mil-accent">29</span></div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h5 class="mil-muted mil-mb-30">Inspiring and Customized <br> Design Solutions</h5>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <p class="mil-light-soft mil-mb-30">Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="mil-adaptive-right mil-mb-30">
+                                            <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="contact.html" class="mil-price-card mil-choose mil-accent-cursor mil-up">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="mil-price-number mil-mb-30"><span class="mil-muted mil-thin">$</span><span class="mil-accent">49</span></div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h5 class="mil-muted mil-mb-30">Unleashing the Beauty of Space <br> with Unique Designs</h5>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <p class="mil-light-soft mil-mb-30">Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="mil-adaptive-right mil-mb-30">
+                                            <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="contact.html" class="mil-price-card mil-choose mil-accent-cursor mil-up mil-mb-60">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2">
+                                        <div class="mil-price-number mil-mb-30"><span class="mil-muted mil-thin">$</span><span class="mil-accent">199</span></div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <h5 class="mil-muted mil-mb-30">Exquisite Design Concepts <br> for Discerning Clients</h5>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <p class="mil-light-soft mil-mb-30">Tomlo commodi, mollitia atque betae esse itaque a, voluptatibus, suscipit beatae officiis omnis.</p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="mil-adaptive-right mil-mb-30">
+                                            <div class="mil-button mil-icon-button-sm mil-arrow-place"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="mil-center">
+                                <a href="contact.html" class="mil-button  mil-arrow-place">
+                                    <span>individual solution</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </section> -->
+                <!-- prices end -->
+
+                <!-- other services -->
+                <section>
+                    <div class="container mil-p-120-90">
+                        <div class="row align-items-center mil-mb-30">
+                            <div class="col-lg-6 mil-mb-30">
+                                <h3 class="mil-up">Other services</h3>
+                            </div>
+                            <div class="col-lg-6 mil-mb-30">
+                                <div class="mil-adaptive-right mil-up">
+                                    <a href="services.html" class="mil-link mil-dark mil-arrow-place">
+                                        <span>View all</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+
+                                <a href="service.html" class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                    <h4 class="mil-up mil-mb-30">Branding and <br>Identity Design</h4>
+                                    <p class="mil-descr mil-up mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                    <ul class="mil-service-list mil-dark mil-mb-30">
+                                        <li class="mil-up">Brand Strategy & Positioning</li>
+                                        <li class="mil-up">Visual Identity Design</li>
+                                        <li class="mil-up">Logo & Typography Systems</li>
+                                        <li class="mil-up">Brand Guidelines & Playbooks</li>
+                                        <li class="mil-up">Digital Brand Experiences</li>
+                                    </ul>
+                                    <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                        <span>Read more</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-lg-4">
+
+                                <a href="service.html" class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                    <h4 class="mil-up mil-mb-30">Website & App <br>Design + Development</h4>
+                                    <p class="mil-descr mil-up mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                    <ul class="mil-service-list mil-dark mil-mb-30">
+                                        <li class="mil-up">Responsive Website Design</li>
+                                        <li class="mil-up">E-Commerce Development</li>
+                                        <li class="mil-up">Web App & SaaS Platforms</li>
+                                        <li class="mil-up">UI/UX Optimization</li>
+                                        <li class="mil-up">Maintenance & Performance Tuning</li>
+                                    </ul>
+                                    <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                        <span>Read more</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                            <div class="col-lg-4">
+
+                                <a href="service.html" class="mil-service-card-lg mil-other-card mil-more mil-mb-30">
+                                    <h4 class="mil-up mil-mb-30">Creative <br>Consulting</h4>
+                                    <p class="mil-descr mil-up mil-mb-30">Our creative agency is a team of professionals focused on helping your brand grow.</p>
+                                    <ul class="mil-service-list mil-dark mil-mb-30">
+                                        <li class="mil-up">Campaign Ideation & Planning</li>
+                                        <li class="mil-up">Content & Visual Design</li>
+                                        <li class="mil-up">Digital Marketing Campaigns</li>
+                                        <li class="mil-up">Performance Analytics & Optimization</li>
+                                        <li class="mil-up">Creative Copywriting & Messaging</li>
+                                    </ul>
+                                    <div class="mil-link mil-dark mil-arrow-place mil-up">
+                                        <span>Read more</span>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- other services end -->
 
                 <!-- footer -->
                 <footer class="mil-dark-bg">
